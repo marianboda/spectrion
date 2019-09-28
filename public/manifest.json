@@ -1,0 +1,20 @@
+{
+  "short_name": "Spectrion",
+  "name": "Spectrion",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "128x128",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
