@@ -12,7 +12,7 @@ export const Spectrogram = ({ data }) => {
     useEffect(() => {
         if (!data || data.length === 0) return;
         const canvasCtx = canvasRef.current.getContext('2d');
-        drawSpectrum(canvasCtx, data[data.length-1], data.length-1);
+        data.forEach((i, idx) => drawSpectrum(canvasCtx, i, idx));
     }, [data]);
 
     return (
